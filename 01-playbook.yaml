@@ -1,0 +1,5 @@
+- name: Ping the server
+  hosts: catalouge # which server you are connecting to
+  tasks:
+  - name: Ping
+    ansible.builtin.ping:
