@@ -4,4 +4,4 @@
   tasks:
   - name: print credentials
     ansible.builtin.debug:
-      msg: "Hello, Username is: {{username}} and password is: {{password}} "
+     msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Tra
