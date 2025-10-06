@@ -11,3 +11,6 @@
     - name: print the user_output
       ansible.builtin.debug:
         msg: "{{ user_output }}"
+    - name: create user
+      ansible.builtin.command: useradd robohsop
+      when: user_output.rc != 0
