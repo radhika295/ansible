@@ -5,7 +5,7 @@
     techonologies: Devops, Linux, Shell, Ansible #String
     name: Radhika
     gmail: SAIRADHIKA.IIITn@gmail.com
-    ipaddress: 1234.56.5.6.56
+    ipaddress: 12.56.5.6.56
     # dictionary == map
     tags:
       Application: payment
