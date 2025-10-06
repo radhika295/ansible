@@ -8,7 +8,6 @@
     ansible.builtin.debug:
       msg: "Hello, {{ name | default('Radhika')}}"
   # String to list
-  task:
   - name: converting string into list
     ansible.builtin.debug:
      msg: "Techonologies are: {{techonologies | split(',')}}"
